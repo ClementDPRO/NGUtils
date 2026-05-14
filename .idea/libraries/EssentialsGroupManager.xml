@@ -1,0 +1,21 @@
+<component name="libraryTable">
+  <library name="EssentialsGroupManager">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../DECOMPIL/NgUtils-1.0/EssentialsGroupManager.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../DECOMPIL/NgUtils-1.0/Factions.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../DECOMPIL/NgUtils-1.0/mcore.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../DECOMPIL/NgUtils-1.0/nationsglory-1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../DECOMPIL/NgUtils-1.0/nationsmap-1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../DECOMPIL/NgUtils-1.0/ngupgrades-1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../DECOMPIL/NgUtils-1.0/server.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../DECOMPIL/NgUtils-1.0/Vault.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../DECOMPIL/NgUtils-1.0/nationsgui-forge-1.8.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../DECOMPIL/NgUtils-1.0/Factions.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../DECOMPIL/NgUtils-1.0/mcore.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../DECOMPIL/NgUtils-1.0/server.jar!/" />
+    </SOURCES>
+  </library>
+</component>

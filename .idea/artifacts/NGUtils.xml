@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="NGUtils">
+    <output-path>$PROJECT_DIR$/../../COmpile</output-path>
+    <root id="archive" name="NGUtils.jar">
+      <element id="module-output" name="NGUTILS" />
+      <element id="library" level="project" name="EssentialsGroupManager" />
+      <element id="file-copy" path="$PROJECT_DIR$/../../DECOMPIL/NgUtils-1.0/plugin.yml" />
+    </root>
+  </artifact>
+</component>
