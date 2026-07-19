@@ -1,0 +1,237 @@
+name: NationsUtils
+version: 1.0
+main: com.clemdefrance.Main
+api-version: 1.6
+depend: [GroupManager]
+
+commands:
+  assaut:
+    description: launch assault
+    usage: /assaut
+    permission: ngutils.rank.assaut
+    permission-message: "§cVous n'avez pas la permission d'utiliser cette commande."
+
+  wl:
+    description: manage custom whitelist
+    usage: /wl <add|remove|list> <player>
+    permission: ngutils.wl
+    permission-message: "§cVous n'avez pas la permission d'utiliser cette commande."
+
+  debug:
+    description: enabled debug
+    usage: /debug
+    permission: ngutils.debug
+    permission-message: "§cVous n'avez pas la permission d'utiliser cette commande."
+
+  getgroup:
+    description: get group
+    usage: /getgroup <player>
+    permission: ngutils.admin
+    permission-message: "§cVous n'avez pas la permission d'utiliser cette commande."
+
+  stopassaut:
+    description: StopAssaut
+    usage: /stopassaut
+    permission: ngutils.assaut.stop
+    permission-message: "§cVous n'avez pas la permission d'utiliser cette commande."
+
+  setkb:
+    description: Set the KB
+    usage: /setkb <value>
+    permission: ngutils.kb
+    permission-message: "§cVous n'avez pas la permission d'utiliser cette commande."
+
+  redem:
+    description: Redem the server
+    usage: /redem
+    permission: ngutils.redem
+    permission-message: "§cVous n'avez pas la permission d'utiliser cette commande."
+
+  isop:
+    description: is op?
+    usage: /isop <player>
+    permission: ngutils.isop
+    permission-message: "§cVous n'avez pas la permission d'utiliser cette commande."
+
+  spawn:
+    description: teleport to spawn
+    usage: /spawn
+
+  warn:
+    description: give a warn
+    usage: /warn <player> <reason>
+    permission: ngutils.warn
+    permission-message: "§cVous n'avez pas la permission d'utiliser cette commande."
+
+  mute:
+    description: give a mute
+    usage: /mute <player> <time> <reason>
+    permission: ngutils.mute
+    permission-message: "§cVous n'avez pas la permission d'utiliser cette commande."
+
+  unmute:
+    description: unmute guys
+    usage: /unmute <player>
+    permission: ngutils.unmute
+    permission-message: "§cVous n'avez pas la permission d'utiliser cette commande."
+
+  punisher:
+    description: see your punisher
+    usage: /punisher [player] [page]
+    permission: ngutils.punisher
+    permission-message: "§cVous n'avez pas la permission d'utiliser cette commande."
+
+  tempban:
+    description: give a tempban
+    usage: /tempban <player> <time> <reason>
+    permission: ngutils.tempban
+    permission-message: "§cVous n'avez pas la permission d'utiliser cette commande."
+
+  ban:
+    description: ban
+    usage: /ban <player> <reason>
+    permission: ngutils.ban
+    permission-message: "§cVous n'avez pas la permission d'utiliser cette commande."
+
+  unban:
+    description: unban
+    usage: /unban <player>
+    permission: ngutils.unban
+    permission-message: "§cVous n'avez pas la permission d'utiliser cette commande."
+
+  ipview:
+    description: see ip player
+    usage: /ipview <player>
+    permission: ngutils.ipview
+    permission-message: "§cVous n'avez pas la permission d'utiliser cette commande."
+
+  foundertest:
+    description: see ip player
+    usage: /ipview <player>
+    permission: ngutils.ipview
+    permission-message: "§cVous n'avez pas la permission d'utiliser cette commande."
+
+  convoc:
+    description: convoc player
+    usage: /convoc <player> <reason>
+    permission: ngutils.convoc
+    permission-message: "§cVous n'avez pas la permission d'utiliser cette commande."
+
+  unconvoc:
+    description: unconvoc player
+    usage: /unconvoc <player>
+    permission: ngutils.unconvoc
+    permission-message: "§cVous n'avez pas la permission d'utiliser cette commande."
+
+  listchest:
+    description: listchest
+    usage: /listchest
+    permission: ngutils.chest
+    permission-message: "§cVous n'avez pas la permission d'utiliser cette commande."
+
+  routineinv:
+    description: routine inventaire
+    usage: /routineinv
+    permission: ngutils.routineinv
+    permission-message: "§cVous n'avez pas la permission d'utiliser cette commande."
+
+  sanctiondel:
+    description: supprime une sanction
+    usage: /sanctiondel
+    permission: ngutils.sanctiondel
+    permission-message: "§cVous n'avez pas la permission d'utiliser cette commande."
+
+  createvent:
+    description: crée un évènement
+    usage: /createvent
+    permission: ngutils.createvent
+    permission-message: "§cVous n'avez pas la permission d'utiliser cette commande."
+
+  listevent:
+    description: liste les events
+    usage: /listevent
+    permission: ngutils.listevent
+    permission-message: "§cVous n'avez pas la permission d'utiliser cette commande."
+
+  joinevent:
+    description: rejoindre un event
+    usage: /joinevent
+    permission: ngutils.joinevent
+    permission-message: "§cVous n'avez pas la permission d'utiliser cette commande."
+
+  closevent:
+    description: ferme l'event en cours
+    usage: /closevent
+    permission: ngutils.closevent
+    permission-message: "§cVous n'avez pas la permission d'utiliser cette commande."
+
+  deletevent:
+    description: supprime l'event
+    usage: /deletevent
+    permission: ngutils.deletevent
+    permission-message: "§cVous n'avez pas la permission d'utiliser cette commande."
+
+  openevent:
+    description: ouvre un event
+    usage: /openevent
+    permission: ngutils.openevent
+    permission-message: "§cVous n'avez pas la permission d'utiliser cette commande."
+
+  gg:
+    description: dit gg dans le chat
+    usage: /gg
+    permission: ngutils.gg
+    permission-message: "§cVous n'avez pas la permission d'utiliser cette commande."
+
+  leavevent:
+    description: quitte l'évent
+    usage: /leavevent
+    permission: ngutils.leavevent
+    permission-message: "§cVous n'avez pas la permission d'utiliser cette commande."
+
+
+  playercount:
+    description: donne le pic de joueur sur les 5 dernier jours
+    usage: /playercount
+    permission: ngutils.playercount
+    permission-message: "§cVous n'avez pas la permission d'utiliser cette commande."
+
+
+  fml:
+    description: chat avec les autrs staff
+    usage: /fml
+    permission: ngutils.log
+    permission-message: "§cVous n'avez pas la permission d'utiliser cette commande."
+
+
+  hdv:
+    description: ouvrir l'hdv
+    usage: /hdv
+    aliases: [hdv, market, ah]
+    permission: ngutils.hdv
+    permission-message: "§cVous n'avez pas la permission d'utiliser cette commande."
+
+
+  catalog:
+    description: ouvrir le catalogue
+    usage: /catalog
+    permission: ngutils.catalog
+    permission-message: "§cVous n'avez pas la permission d'utiliser cette commande."
+
+  allplayer:
+    description: dit le pseudo de tous les joueurs
+    usage: /allplayer
+    permission: ngutils.allplayer
+    permission-message: "§cVous n'avez pas la permission d'utiliser cette commande."
+
+  spy:
+    description: espionne les commandes des joueurs
+    usage: /spy
+    permission: ngutils.spy
+    permission-message: "§cVous n'avez pas la permission d'utiliser cette commande."
+
+  logcrea:
+    description: espionne les give des joueurs
+    usage: /logcrea
+    permission: ngutils.logcrea
+    permission-message: "§cVous n'avez pas la permission d'utiliser cette commande."
